@@ -7,7 +7,7 @@
 <a href='https://pledgie.com/campaigns/29452'><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/29452.png?skin_name=chrome' border='0' ></a>
 
 
-# Material Theme for Sublime Text 3 3085+
+# Material Theme for Sublime Text 3 3103+
 
 This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems, first search for a similiar issue and then report with [new one](https://github.com/equinusocio/material-theme/issues).
 
@@ -115,7 +115,7 @@ This official addon enable a beautiful colored tab bar to your Material Theme. T
 "material_theme_compact_sidebar"          : true , // Set compact side bar
 "material_theme_disable_tree_indicator"   : true , // Disable sidebar file indicator
 "material_theme_bold_tab"                 : true , // Make the tab labels bolder
-"material_theme_tabs_separator"           : true , // Show tabs separator, this disable tab animation hover
+"material_theme_tabs_separator"           : true , // Show tabs separator, this disables tab hover animation
 "material_theme_accent_lime"              : true , // set green lime accent color
 "material_theme_accent_purple"            : true , // set purple accent color
 "material_theme_accent_red"               : true , // set pale red accent color
@@ -130,7 +130,7 @@ This official addon enable a beautiful colored tab bar to your Material Theme. T
 "material_theme_tree_headings"            : true , // Show siderbar headings
 ```
 
-# Recommended UI and font settings for a better experience:
+# Recommended settings for a better experience:
 
 ```json
 "overlay_scroll_bars"          : "enabled",
@@ -173,11 +173,19 @@ Material Theme was also ported to:
 - [x] [Vim](https://github.com/kristijanhusak/vim-hybrid-material) (thanks to [@kristijanhusak](https://github.com/kristijanhusak)).
 - [x] [Terminal OSX](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) (thanks to [@mvaneijgen](https://github.com/mvaneijgen)).
 - [x] [ConEmu](https://gist.github.com/rajadain/b306b2ba71bd58a1df41) (thanks to [@rajadain](https://github.com/rajadain)).
+- [x] [Slack App](https://slack.com/) ( #263238,#2e3a40,#80CBC4,#FFFFFF,#13191C,#ffffff,#50fa7b,#FF5555 )
 
 
-# Default Color Palette
+# Color Palette
 
-![Color Palette](http://i.imgur.com/zyIK71j.jpg)
+Palette              | Hex       | RGB          
+---                  | ---       | ---          
+Blue Grey 900        | `#263238` | `38 50 56`   
+Current Line 800     | `#37474F` | `55 71 79`   
+Selection 600        | `#546E7A` | `84 110 122`   
+Comment 500          | `#607D8B` | `96 125 139` 
+Teal                 | `#80CBC4` | `128 203 196`
+
 
 
 ## Thanks
